@@ -23,6 +23,7 @@ function FuckMyBrain(programArray) {
             // Input symbols by putting them right after the comma in program code
             case ",":
                 tape[arrayPointer] = programArray[programPointer + 1].charCodeAt(0); // Writes an ASCII code of given symbol
+                programPointer++;
                 break;
             case "[":
                 if (tape[arrayPointer] == 0) {
@@ -70,4 +71,7 @@ Output: Hello World!
 
 Input: >,4<++++++++[>------<-]>>++++++++[>++++++<-]<[>>+.<<-]>.
 Output: 1234
+
+Input: +++++++++++++[>>+++++<<-]++++++[>++++<-]>++[>.+<-]
+Output: ABCDEFGHIJKLMNOPQRSTUVWXYZ
 */
