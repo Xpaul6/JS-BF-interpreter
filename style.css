@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #2d3436;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    min-width: 400px;
+    margin-top: 100px;
+    background-color: #2d3436;
+}
+
+.container label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #dfe6e9;
+    margin: 15px;
+}
+
+#inputField {
+    margin: 0;
+    padding: 10px;
+    width: 95%;
+    height: 200px;
+    font-size: large;
+    color: #dfe6e9;
+    background-color: #2d3436;
+    border: 2px solid #74b9ff;
+    border-radius: 10px;
+    transition: all .15s ease-in-out;
+}
+
+#inputField:focus, #inputField:hover {
+    outline: none;
+    border-color: #55efc4;
+}
+
+#confirmButton {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #dfe6e9;
+    margin: 30px 10px 10px 10px;
+    padding: 10px;
+    width: 25%;
+    background-color: #2d3436;
+    border: 2px solid #74b9ff;
+    border-radius: 10px;
+    transition: all .15s ease-in-out;
+}
+
+#confirmButton:hover {
+    background-color: #55efc4;
+    border-color: #55efc4;
+    color: black;
+}
+
+#confirmButton:active {
+    opacity: 0.6;
+}
+
+#outputField {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #dfe6e9;
+
+}

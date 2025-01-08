@@ -6,6 +6,6 @@ Enter your code inside a textbox and click run to, well, run it
 Input is possible by putting a character next to comma(input command). For example, "++>,A>"
 
 # **TODO**
-- [ ] Better graphical interface
+- [x] Better graphical interface
 - [ ] Instruction and code snippets on the page itself
 - [ ] Error handling

@@ -4,14 +4,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/brainfuck.png">  
+  <link rel="stylesheet" href="style.css">
   <title>Brainfuck interpreter</title>
   <script defer src="index.js"></script>
 </head>
 <body>
   <div class="container">
-    <label for="inputField">Enter your program here</label> <br>
-    <textarea name="inputField" id="inputField" cols="100" rows="25"></textarea> <br>
+    <label for="inputField">Enter your brainf*ck program here:</label>
+    <textarea name="inputField" id="inputField"></textarea>
     <button id="confirmButton" onclick="Run()">Run</button>
+    <label for="outputField">Output:</label>
     <p id="outputField">-</p>
   </div>
 </body>
