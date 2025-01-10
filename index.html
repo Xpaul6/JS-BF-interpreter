@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="assets/brainfuck.png">  
   <link rel="stylesheet" href="style.css">
-  <title>Brainfuck interpreter</title>
+  <title>Brainf*ck interpreter</title>
   <script defer src="index.js"></script>
 </head>
 <body>
@@ -16,6 +16,33 @@
     <button id="confirmButton" onclick="Run()">Run</button>
     <label for="outputField">Output:</label>
     <p id="outputField">-</p>
+    <hr>
+    <h1>Brainf*ck basics:</h1>
+    <div class="textBox">
+      <p class="textInfo">Language consists of an array of zeros with length of 30000 and a pointer on the first array element. Value in each sell can have a value between 0 and 255 and overflows.</p>
+      <p class="textInfo">">" - move pointer one cell right</p>
+      <p class="textInfo">"<" - move pointer one cell left</p>
+      <p class="textInfo">"+" - increment a value on pointer position by 1</p>
+      <p class="textInfo">"-" - decrement a value on pointer position by 1</p>
+      <p class="textInfo">"." - output an ASCII equivalent of current value</p>
+      <p class="textInfo">"," - put an ASCII code of symbol on pointer position</p>
+      <p class="textInfo">"[" - start a loop until the value in the origin cell is set to 0</p>
+      <p class="textInfo">"]" - end of the loop, breaks a loop if cell is set to 0</p>
+    </div>
+    <hr>
+    <h1>Code examples:</h1>
+    <div class="textBox">
+      <p class="textInfo">Input: ++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.</p>
+      <p class="textInfo">Output: Hello World!</p>
+    </div>
+    <div class="textBox">
+      <p class="textInfo">Input: +++++++++++++[>>+++++<<-]++++++[>++++<-]>++[>.+<-]</p>
+      <p class="textInfo">Output: ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+    </div>
+    <div class="textBox">
+      <p class="textInfo">Input: >,4<++++++++[>------<-]>>++++++++[>++++++<-]<[>>+.<<-]>.</p>
+      <p class="textInfo">Output: 1234</p>
+    </div>
   </div>
 </body>
 </html>

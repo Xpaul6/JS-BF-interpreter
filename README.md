@@ -7,5 +7,5 @@ Input is possible by putting a character next to comma(input command). For examp
 
 # **TODO**
 - [x] Better graphical interface
-- [ ] Instruction and code snippets on the page itself
+- [x] Instruction and code snippets on the page itself
 - [ ] Error handling
