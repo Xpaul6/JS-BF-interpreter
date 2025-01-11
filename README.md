@@ -1,5 +1,5 @@
 # JS-BF-interpreter
-A simple Brainf\*ck interpreter written if JS.
+A simple Brainf\*ck interpreter written in JS.
 Enter your code inside a textbox and click "run" to, well, run it.
 Little instroduction into brainf\*ck and code snippets are provided on the page itself. Hosted on github pages.
 
