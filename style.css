@@ -68,6 +68,10 @@ body {
     color: #dfe6e9;
 }
 
+.error {
+    text-decoration: underline #d63031 2px;
+}
+
 hr {
     width: 100%;
     color: #dfe6e9;

@@ -6,4 +6,4 @@ Little instroduction into brainf\*ck and code snippets are provided on the page 
 # TODO
 - [x] Better graphical interface
 - [x] Instruction and code snippets on the page itself
-- [ ] Error handling
+- [x] Error handling
